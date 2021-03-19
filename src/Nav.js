@@ -20,7 +20,7 @@ return () => window.removeEventListener("scroll", transitionNavBar)
 
 
     return (
-        <div className="nav nav__black">
+        <div className={`nav ${show && "nav__black"}`}>
             <div className="nav">
                 <div className="nav__contents">
                     <img 
